@@ -1,0 +1,612 @@
+.bodygalery {
+  background-color: #680606; }
+
+.galeryrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+.galerycolumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; }
+  .galerycolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 15px; }
+
+.headeresGallery {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://media.glamour.mx/photos/64d4423e8bcbb1503ffa0a3e/16:9/w_1920,c_limit/tatuajes-pequenos.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.TatuajeTit {
+  font-size: 50px;
+  font-variant: initial;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: brown;
+  text-shadow: black 0 2px; }
+
+.TatuajeSel {
+  background-position: 100%;
+  padding: 10px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin: 0% 10%;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(253, 108, 132, 0.712);
+  border-radius: 15px; }
+
+.footer {
+  background: #ee85b1;
+  color: white;
+  height: 6.25rem;
+  margin-bottom: 70px; }
+
+.copy {
+  font-size: 0.625rem;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  background: #ee85b1;
+  width: 100%;
+  color: white;
+  height: 70px; }
+  .redes ul {
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+    list-style: none;
+    padding: 10px;
+    align-items: center; }
+    .redes ul li img {
+      width: 35px; }
+
+.fixed-top, .redes {
+  background: #ee85b1;
+  position: fixed;
+  top: 0; }
+
+.redes {
+  top: auto;
+  bottom: 0; }
+
+.header {
+  height: 60px;
+  background: #f3caf3;
+  color: brown;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  bottom: auto; }
+  .header .logo {
+    margin: 0;
+    line-height: 50px;
+    float: left; }
+
+.nav {
+  list-style: none;
+  float: left; }
+  .nav li {
+    display: inline-block;
+    padding-top: 20px; }
+    .nav li a {
+      display: inline-block;
+      padding: 3px 15px;
+      color: inherit;
+      text-decoration: none; }
+
+.headeres {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://collegian.com/wp-content/uploads/2022/11/10_26_22_Gladstein_Witch_of_The_West_tattoo_MGladstein_10-900x599.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .headeres .Logito {
+    background-color: rgba(253, 108, 132, 0.712);
+    border-radius: 25%; }
+
+.ElTexto {
+  background-position: 100%;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin: 0% 10%;
+  font-size: 10px; }
+
+.TituloElTexto {
+  font-size: 30px;
+  font-variant: initial;
+  font-style: italic;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center; }
+
+article {
+  background-color: #f3caf3;
+  background-position: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px; }
+  article img {
+    width: 700px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 10px;
+    border: 2px dashed #ee85b1; }
+
+.EstilosTatuajes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 2px dashed #ee85b1;
+  border-radius: 15px; }
+
+.LaCard {
+  grid-area: 1 / 1 / 2 / 3; }
+
+.ElTexto {
+  grid-area: 1 / 3 / 2 / 6; }
+
+.ArtistsContainer {
+  background-color: #f3caf3;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px; }
+  .ArtistsContainer .TituloArtists {
+    font-size: 45px;
+    font-variant: initial;
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+
+.ContactoContenedor {
+  height: 520px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px; }
+  .ContactoContenedor .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 3em;
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+    padding-bottom: 2.1em;
+    border: 2px dashed #f3caf3;
+    border-radius: 15px;
+    background-color: rgba(253, 108, 132, 0.712);
+    box-shadow: 0 0 0 4px rgba(253, 108, 132, 0.712), 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .4s ease-in-out; }
+    .ContactoContenedor .contact h3 {
+      color: brown;
+      display: block;
+      font-size: 30px;
+      font-weight: 400; }
+    .ContactoContenedor .contact h4 {
+      margin: 5px 0 15px;
+      display: block;
+      font-size: 13px; }
+    .ContactoContenedor .contact input[type="text"] {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px; }
+    .ContactoContenedor .contact input[type="email"] {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px; }
+    .ContactoContenedor .contact textarea {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px;
+      height: 100px;
+      max-width: 100%;
+      resize: none; }
+    .ContactoContenedor .contact button[type="submit"] {
+      align-self: center;
+      margin-top: 2em;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      color: white;
+      background-color: #ee85b1;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      transition: .4s ease-in-out opacity,.1s ease-in-out active;
+      padding: 1em;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5); }
+  .ContactoContenedor fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%; }
+  .ContactoContenedor iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px rgba(253, 108, 132, 0.712), 2px 2px 4px 2px rgba(0, 0, 0, 0.5); }
+
+.bodycontacto {
+  background-image: radial-gradient(circle, #f7e7f8, #efd3f0, #e6c0e8, #deacdf, #d698d6); }
+
+.headerescontacto {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/952/72/20/tattoo-monochrome-wallpaper-preview.jpg);
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.TatuajeTit {
+  font-size: 50px;
+  font-variant: initial;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: brown;
+  text-shadow: black 0 2px; }
+
+.Contacto {
+  height: 650px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  padding: 10px; }
+  .Contacto .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 3em;
+    padding-left: 2.8em;
+    padding-right: 2.8em;
+    padding-bottom: 2.1em;
+    border: 2px dashed #f3caf3;
+    border-radius: 15px;
+    background-color: rgba(253, 108, 132, 0.712);
+    box-shadow: 0 0 0 4px rgba(253, 108, 132, 0.712), 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .4s ease-in-out; }
+    .Contacto .contact h3 {
+      color: brown;
+      display: block;
+      font-size: 30px;
+      font-weight: 400; }
+    .Contacto .contact h4 {
+      margin: 5px 0 15px;
+      display: block;
+      font-size: 13px; }
+    .Contacto .contact input[type="text"] {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px; }
+    .Contacto .contact input[type="email"] {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px; }
+    .Contacto .contact textarea {
+      width: 100%;
+      border: 1px solid #f3caf3;
+      background: rgba(253, 108, 132, 0.712);
+      margin: 0 0 5px;
+      padding: 10px;
+      height: 100px;
+      max-width: 100%;
+      resize: none; }
+    .Contacto .contact button[type="submit"] {
+      align-self: center;
+      margin-top: 2em;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      color: white;
+      background-color: #ee85b1;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      transition: .4s ease-in-out opacity,.1s ease-in-out active;
+      padding: 1em;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5); }
+  .Contacto fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  grid-template-areas: "Contacts Contacts ContactoContenedor" "Ubicacion Redes ContactoContenedor"; }
+
+.Contacts {
+  grid-area: Contacts;
+  text-align: center;
+  margin: 50px; }
+  .Contacts h2 {
+    padding-bottom: 25px; }
+
+.Ubicacion {
+  grid-area: Ubicacion;
+  justify-content: center;
+  text-align: center; }
+
+.ContactoContenedor {
+  grid-area: ContactoContenedor; }
+
+.Redes {
+  grid-area: Redes;
+  text-align: center; }
+  .Redes li {
+    list-style: none;
+    margin: 15px; }
+    .Redes li a {
+      text-decoration: none;
+      color: black;
+      padding: 5px; }
+    .Redes li a:hover {
+      background-color: rgba(253, 108, 132, 0.712);
+      border-radius: 25px; }
+
+.apo-whang-go {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  grid-template-areas: "cardID infoId infoId";
+  gap: 10px;
+  padding-top: 3em;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+  padding-bottom: 2.1em;
+  border: 2px dashed #f3caf3;
+  border-radius: 15px;
+  margin: 25px; }
+
+.cardID {
+  grid-area: cardID;
+  height: 100px;
+  max-width: 50%; }
+  .cardID img {
+    width: 75%;
+    padding: 10px;
+    border: 2px dashed #f3caf3;
+    border-radius: 15px; }
+
+.infoId {
+  grid-area: infoId; }
+
+.rigoberta {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  grid-template-areas: " infoId infoId cardID";
+  gap: 10px;
+  padding-top: 3em;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+  padding-bottom: 2.1em;
+  border: 2px dashed #f3caf3;
+  border-radius: 15px;
+  margin: 25px; }
+
+.cardID {
+  grid-area: cardID;
+  height: 100px;
+  max-width: 50%; }
+  .cardID img {
+    width: 75%;
+    padding: 10px;
+    border: 2px dashed #f3caf3;
+    border-radius: 15px; }
+
+.Lady {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  grid-template-areas: "cardID infoId infoId";
+  gap: 10px;
+  padding-top: 3em;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
+  padding-bottom: 2.1em;
+  border: 2px dashed #f3caf3;
+  border-radius: 15px;
+  margin: 25px; }
+
+.cardID {
+  grid-area: cardID;
+  height: 100px;
+  max-width: 50%; }
+  .cardID img {
+    width: 75%;
+    padding: 10px;
+    border: 2px dashed #f3caf3;
+    border-radius: 15px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.LaCard {
+  width: 100%;
+  height: 254px;
+  border-radius: 4px;
+  display: flex;
+  gap: 5px;
+  padding: .4em; }
+  .LaCard p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    border: 1px solid #ff5a91;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .LaCard p:hover {
+      flex: 4; }
+  .LaCard p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em; }
+  .LaCard p:hover span {
+    transform: rotate(0); }
+
+.Artists {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  align-items: center;
+  padding: 20px;
+  margin-left: 250px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .Artists .div1 {
+    grid-area: 1 / 1 / 2 / 2; }
+  .Artists .div2 {
+    grid-area: 1 / 2 / 2 / 3; }
+  .Artists .div3 {
+    grid-area: 1 / 3 / 2 / 4; }
+  .Artists .card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .Artists .card img {
+    width: 100%;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .Artists .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); }
+  .Artists .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .Artists .card:hover .card__content {
+    transform: rotateX(0deg); }
+  .Artists .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700; }
+  .Artists .card:hover svg {
+    scale: 0; }
+  .Artists .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4; }

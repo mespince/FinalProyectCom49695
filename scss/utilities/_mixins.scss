@@ -1,0 +1,24 @@
+// codigo que podemos manipular con parametros
+//se llama con @include "nombredelmixin"
+
+@mixin Texto($size, $padding){
+    
+        background-position: 100%;
+        padding: $padding;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        margin: 0% 10%;
+        font-size: $size;}
+    
+@mixin TituloElTexto($size, $padding){
+        font-size: $size;
+        font-variant: initial;
+        font-style: italic;
+    
+        padding: $padding;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    

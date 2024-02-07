@@ -1,0 +1,23 @@
+//primero Utilities
+@import "./utilities/functions";
+@import "./utilities/mixins";
+@import "./utilities/variable";
+@import "./utilities/maps";
+
+//Layouts
+@import "./layout/galeria";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/mainindex";
+@import "./layout/contacto";
+@import "./layout/nosotros";
+
+//Base
+@import "./base/resets";
+@import "./base/tipografia";
+
+//base
+@import "./components/bootstrap";
+@import "./components/cards";
+
+;
