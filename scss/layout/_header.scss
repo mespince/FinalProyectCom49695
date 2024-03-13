@@ -13,21 +13,51 @@
     }
     }
 
-    .nav{
-        list-style:none;
-        float:left;
-        li{
-            display:inline-block;
-            
-        padding-top: 20px;
-            a{
-                display:inline-block;
-                padding:3px 15px;
-                color:inherit;
-                text-decoration:none;
-    }
-    }
-    }
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: $FonditoSecundario;
+        position: relative;
+      }
+      
+      .nav > .nav-header {
+        display: inline;
+      }
+      
+      .nav > .nav-header > .nav-title {
+        display: inline-block;
+        font-size: 22px;
+        @include TituloElTexto(25px, 10px);
+        padding: 10px 10px 10px 10px;
+      }
+      
+      .nav > .nav-btn {
+        display: none;
+      }
+      
+      .nav > .nav-links {
+        display: inline;
+        float: right;
+        font-size: 18px;
+      }
+      
+      .nav > .nav-links > a {
+        color: brown;
+        display: inline-block;
+        padding: 13px 10px 13px 10px;
+        text-decoration: none;
+        
+      }
+      
+      .nav > .nav-links > a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      
+      .nav > #nav-check {
+        display: none;
+      }
+      
+      
 
     .headeres{
         padding-top: 60px;

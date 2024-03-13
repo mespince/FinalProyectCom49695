@@ -4,6 +4,12 @@
 @import "./utilities/variable";
 @import "./utilities/maps";
 
+//MediaQ
+@import "./base/media/320";
+@import "./base/media/768";
+@import "./base/media/1024";
+;
+
 //Layouts
 @import "./layout/galeria";
 @import "./layout/footer";
@@ -16,8 +22,9 @@
 @import "./base/resets";
 @import "./base/tipografia";
 
+
 //base
 @import "./components/bootstrap";
 @import "./components/cards";
 
-;
+

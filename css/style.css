@@ -1,3 +1,100 @@
+@media all and (max-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr); }
+  .bodyinicio {
+    width: 100%;
+    height: 1600px; }
+    .bodyinicio .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px; }
+    .bodyinicio .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px; }
+    .bodyinicio .nav > .nav-btn > label:hover, .bodyinicio .nav #nav-check:checked ~ .nav-btn > label {
+      background-color: #fcd0d0; }
+    .bodyinicio .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee; }
+    .bodyinicio .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fcd0d0;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px; }
+    .bodyinicio .nav > .nav-links > a {
+      display: block;
+      width: 100%; }
+    .bodyinicio .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px; }
+    .bodyinicio .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto; }
+    .bodyinicio .Logito {
+      width: 100%; }
+    .bodyinicio .Artists {
+      display: flex;
+      flex-direction: column; }
+      .bodyinicio .Artists div {
+        margin-right: 225px;
+        margin-top: 15px; }
+    .bodyinicio .EstilosTatuajes {
+      display: flex;
+      flex-direction: column; }
+    .bodyinicio article {
+      display: flex;
+      flex-direction: column; }
+      .bodyinicio article img {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        border: 2px dashed #ee85b1; }
+    .bodyinicio .Artist {
+      display: flex;
+      flex-direction: column; }
+      .bodyinicio .Artist .card {
+        width: 100px;
+        height: 75px; }
+    .bodyinicio .ContactoContenedor {
+      display: flex;
+      flex-direction: column; }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background: #ee85b1;
+    width: 100%;
+    color: white;
+    height: 70px; }
+    .redes ul {
+      display: flex;
+      gap: 25px;
+      color: white;
+      list-style: none;
+      padding: 10px;
+      align-items: center; }
+      .redes ul li img {
+        width: 35px; } }
+
+@media all and (min-width: 1024px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr); }
+  .bodyinicio {
+    width: 100%; }
+    .bodyinicio .headeres {
+      width: 100%; } }
+
 .bodygalery {
   background-color: #680606; }
 
@@ -77,7 +174,7 @@
   .redes ul {
     display: flex;
     gap: 25px;
-    margin-right: 10px;
+    color: white;
     list-style: none;
     padding: 10px;
     align-items: center; }
@@ -107,16 +204,44 @@
     float: left; }
 
 .nav {
-  list-style: none;
-  float: left; }
-  .nav li {
-    display: inline-block;
-    padding-top: 20px; }
-    .nav li a {
-      display: inline-block;
-      padding: 3px 15px;
-      color: inherit;
-      text-decoration: none; }
+  height: 50px;
+  width: 100%;
+  background-color: #ee85b1;
+  position: relative; }
+
+.nav > .nav-header {
+  display: inline; }
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  font-size: 25px;
+  font-variant: initial;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px 10px 10px 10px; }
+
+.nav > .nav-btn {
+  display: none; }
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px; }
+
+.nav > .nav-links > a {
+  color: brown;
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none; }
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.nav > #nav-check {
+  display: none; }
 
 .headeres {
   padding-top: 60px;
