@@ -1,2 +1,30 @@
 @media all and (min-width: 321px) {
+    .TatuajeTit {
+        font-size: 30px; 
+    }
+    .container {
+        padding: 0 10px;
+        
+    }}
+
+    
+@media screen and (max-width: 767px) {
+    .containercontacto {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .Contacts {
+        margin: 0;
+    }
+
+    .Ubicacion, .Redes {
+        margin: 0;
+        justify-content: center; 
+    }
+
+    .ContactoContenedor form {
+        width: 90%; 
+    }
 }
+    

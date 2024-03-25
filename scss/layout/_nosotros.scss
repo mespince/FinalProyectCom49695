@@ -1,110 +1,26 @@
-.apo-whang-go {  
-    width: 100%;
-    height: 350px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 6px 6px;
-    grid-auto-flow: row;
-    justify-content: stretch;
-    align-content: stretch;
-    justify-items: stretch;
-grid-template-areas:
-    "cardID infoId infoId";
-    gap: 10px;
-padding-top: 3em;
-padding-left: 2.8em;
-padding-right: 2.8em;
-padding-bottom: 2.1em;
-border: 2px dashed $FonditoPrincipal;
-border-radius: 15px;
-margin: 25px;
-}
-
-.cardID { grid-area: cardID;
-    height: 100px;
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto; 
+    border: 2px dashed $FonditoPrincipal; 
+    border-radius: 15px; 
+    padding: 10px; 
+    width: 90%; 
+    }
     
-    max-width: 50%;
-    img {
-        width: 75%;
-        padding: 10px;
-        border: 2px dashed $FonditoPrincipal;
-    border-radius: 15px;
-  
-  }
-}
-
-.infoId { grid-area: infoId; }
-
-
-.rigoberta{  
-    width: 100%;
-    height: 350px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 6px 6px;
-    grid-auto-flow: row;
-    justify-content: stretch;
-    align-content: stretch;
-    justify-items: stretch;
-grid-template-areas:
-    " infoId infoId cardID";
-    gap: 10px;
-padding-top: 3em;
-padding-left: 2.8em;
-padding-right: 2.8em;
-padding-bottom: 2.1em;
-border: 2px dashed $FonditoPrincipal;
-border-radius: 15px;
-margin: 25px;
-}
-
-.cardID { grid-area: cardID;
-    height: 100px;
+    .cardID {
+        width: 25%;
+        overflow: hidden; 
+    }
     
-    max-width: 50%;
-    img {
-        width: 75%;
-        padding: 10px;
-        border: 2px dashed $FonditoPrincipal;
-    border-radius: 15px;
-  
-  }
-}
-
-.Lady {  
-    width: 100%;
-    height: 350px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 6px 6px;
-    grid-auto-flow: row;
-    justify-content: stretch;
-    align-content: stretch;
-    justify-items: stretch;
-grid-template-areas:
-    "cardID infoId infoId";
-    gap: 10px;
-padding-top: 3em;
-padding-left: 2.8em;
-padding-right: 2.8em;
-padding-bottom: 2.1em;
-border: 2px dashed $FonditoPrincipal;
-border-radius: 15px;
-margin: 25px;
-}
-
-.cardID { grid-area: cardID;
-    height: 100px;
+    .cardID img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+    }
     
-    max-width: 50%;
-    img {
-        width: 75%;
-        padding: 10px;
-        border: 2px dashed $FonditoPrincipal;
-    border-radius: 15px;
-  
-  }
-}
+    .infoId {
+        width: 75%; 
+        padding: 20px; 
+    }

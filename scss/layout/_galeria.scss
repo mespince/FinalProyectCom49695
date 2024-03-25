@@ -1,50 +1,48 @@
-.bodygalery{
-    background-color: $FonditoDarks;
-}
-
-
-
-.galeryrow {
-    display: flex;
-    flex-wrap: wrap;
-padding: 0 4px; 
-}
-.galerycolumn {
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
-img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border-radius: 15px;
+.bodygalery {
+        background-color: $FonditoDarks;
     }
-}
-
-    .headeresGallery{
+    
+    .headeresGallery {
         padding-top: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-image: url(https://media.glamour.mx/photos/64d4423e8bcbb1503ffa0a3e/16:9/w_1920,c_limit/tatuajes-pequenos.jpg);
-    width: 100%;
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;}
-
-.TatuajeTit{
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .TatuajeTit {
         @include TituloElTexto(50px, 10px);
         color: map-get($letras, titulos);
-        text-shadow: black 0 2px
+        text-shadow: black 0 2px;
     }
-
-    .TatuajeSel{
+    
+    .TatuajeSel {
         @include Texto(25px, 10px);
         text-align: center;
         background-color: $FonditoTransparente;
+        border-radius: 15px;
+    }
+    
+    .galeryrow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .galerycolumn {
+        flex: 0 0 calc(25% - 8px); 
+        margin: 4px; 
+    }
+    
+    .galerycolumn img {
+        width: 100%; 
         border-radius: 15px;
     }

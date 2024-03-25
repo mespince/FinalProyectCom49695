@@ -89,10 +89,7 @@
         height: 75px ;
     }}
 
-    .ContactoContenedor{
-      display: flex;
-      flex-direction: column;
-    }
+  
   }
   .redes{
     display: flex;
@@ -115,4 +112,39 @@ ul{
         width: 35px;
     }
 }
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .apo-whang-go, .rigoberta, .Lady {
+    flex-direction: column;
+  }
+  
+  .cardID, .infoId {
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+.cardContainer {
+  flex-direction: row;
+}
+
+.apo-whang-go, .rigoberta, .Lady {
+  flex-direction: row;
+}
+
+.cardID, .infoId {
+  width: 50%;
+}
+
+.cardID img {
+    width: 100%;
+  max-width: none;
 }}
+
+}
